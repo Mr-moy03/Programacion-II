@@ -19,12 +19,12 @@ public class Main extends JPanel {
     public static final Color COLOR2 = new Color(18, 161, 164);
 
     // Puntos y figuras
-    private Punto p1, p2;
-    private Linea linea;
-    private Circulo circulo;
+    public Punto p1, p2;
+    public Linea linea;
+    public Circulo circulo;
 
     // Texto
-    private String texto1, texto2, texto3;
+    public String texto1, texto2, texto3;
 
     public Main() {
         // Crear puntos aleatorios
@@ -74,7 +74,7 @@ public class Main extends JPanel {
 
 // Clase Punto
 class Punto {
-    private double x, y;
+    public double x, y;
 
     public Punto(double x, double y) {
         this.x = x;
@@ -106,7 +106,7 @@ class Punto {
 
 // Clase Linea
 class Linea {
-    private Punto p1, p2;
+    public Punto p1, p2;
 
     public Linea(Punto p1, Punto p2) {
         this.p1 = p1;
@@ -124,8 +124,8 @@ class Linea {
 
 // Clase Circulo
 class Circulo {
-    private Punto centro;
-    private double radio;
+    public Punto centro;
+    public double radio;
 
     public Circulo(Punto centro, double radio) {
         this.centro = centro;
