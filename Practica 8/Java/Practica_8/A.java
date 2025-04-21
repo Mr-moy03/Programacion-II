@@ -1,6 +1,6 @@
 //A.java
 package Practica_8;
-class A implements IncrementaXZ {
+class A {
     public int x;
     public int z;
 
